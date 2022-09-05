@@ -78,10 +78,11 @@ and <GlobalStyle /> on App.js
   width: 50px;
 } */
 
-.imagem-icone {
+/* replaced by const Icone = styled.img` on index.jsx from UI 
+  .imagem-icone {
   height: 25px;
   width: 25px;
-}
+} */
 
 .btn {
   margin: 15px auto 0px auto;
