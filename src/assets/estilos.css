@@ -58,17 +58,19 @@ and <GlobalStyle /> on App.js
   align-items: center;
 } */
 
-.container {
+/* replaced by const Container = styled.div` on index.jsx from Container 
+  .container {
   background-color: #f1f1f1;
   min-height: 90vh;
   padding: 0px 15vw;
-}
+} */
 
-.conteudo {
+/* replaced by const Content = styled.section` on index.jsx from Container 
+  .conteudo {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-}
+} */
 
 /* replaced by const Logo = styled.img` on index.jsx from Cabecalho
   .imagem-logo {
