@@ -1,9 +1,22 @@
 import React from "react";
+import styled from "styled-components";
 import bank_logo from "../../assets/images/bank_logo.svg";
+import { firstColor } from "../UI/Variaveis";
+
+const StyledHeader = styled.nav`
+  background-color: ${firstColor};
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15vw;
+  height: 10vh;
+  align-items: center;
+`
+
+
 
 const Cabecalho = () => {
   return (
-    <div className="cabecalho">
+    <StyledHeader>
       <img className="imagem-logo" src={bank_logo} alt="Logo Smart Bank" />
       <div>
         <a className="btn-secundario" href="https://google.com">
@@ -13,7 +26,7 @@ const Cabecalho = () => {
           Sair
         </a>
       </div>
-    </div>
+    </StyledHeader>
   );
 };
 

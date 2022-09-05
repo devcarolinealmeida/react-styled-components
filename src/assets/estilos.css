@@ -46,14 +46,15 @@ and <GlobalStyle /> on App.js
   padding: 25px 0;
 } */
 
-.cabecalho {
+/* replaced by const StyledHeader = styled.nav` on index.jsx from Cabecalho
+  .cabecalho {
   background-color: #41d3be;
   display: flex;
   justify-content: space-between;
   padding: 0 15vw;
   height: 10vh;
   align-items: center;
-}
+} */
 
 .container {
   background-color: #f1f1f1;
