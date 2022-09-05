@@ -12,12 +12,15 @@ const StyledHeader = styled.nav`
   align-items: center;
 `
 
-
+const Logo = styled.img`
+  height: 50px;
+  width: 50px;
+`
 
 const Cabecalho = () => {
   return (
     <StyledHeader>
-      <img className="imagem-logo" src={bank_logo} alt="Logo Smart Bank" />
+      <Logo src={bank_logo} alt="Logo Smart Bank" />
       <div>
         <a className="btn-secundario" href="https://google.com">
           Ajuda

@@ -68,10 +68,11 @@ and <GlobalStyle /> on App.js
   justify-content: space-between;
 }
 
-.imagem-logo {
+/* replaced by const Logo = styled.img` on index.jsx from Cabecalho
+  .imagem-logo {
   height: 50px;
   width: 50px;
-}
+} */
 
 .imagem-icone {
   height: 25px;
