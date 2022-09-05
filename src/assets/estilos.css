@@ -15,7 +15,8 @@ and <GlobalStyle /> on App.js
   color: grey;
 } */
 
-.btn-primario {
+/* replaced by const BtnHeader = styled.a on index.jsx from Cabecalho
+  .btn-primario {
   text-align: center;
   border-radius: 3px;
   padding: 5px 20px;
@@ -25,9 +26,10 @@ and <GlobalStyle /> on App.js
 
   color: white;
   background: transparent;
-}
+} */
 
-.btn-secundario {
+/* replaced by const BtnHeader = styled.a on index.jsx from Cabecalho 
+  .btn-secundario {
   text-align: center;
   border-radius: 3px;
   padding: 5px 20px;
@@ -37,7 +39,7 @@ and <GlobalStyle /> on App.js
 
   background: white;
   color: #41d3be;
-}
+} */
 
 
 /* replaced by styled.h1
