@@ -29,7 +29,12 @@ export const Button = styled.button`
     cursor: pointer;
 `
 
-export const Saldo = styled.span`
+export const Saldo = styled.div`
     font-weight: 700;
     font-size: 32px;
+`
+
+export const Detail = styled.span`
+    color: #41d3be;
+    font-size: 24px;
 `

@@ -110,15 +110,17 @@ and <GlobalStyle /> on App.js
   width: 48%;
 } */
 
-/* .saldo {
+/* replaced by const Saldo = styled.div` on index.jsx from UI  
+  .saldo {
   font-weight: 700;
   font-size: 32px;
 } */
 
-.detalhe {
+/* replaced by const Detail = styled.span` on index.jsx from UI  
+  .detalhe {
   color: #41d3be;
   font-size: 24px;
-}
+} */
 
 @media (max-width: 800px) {
   .box {
