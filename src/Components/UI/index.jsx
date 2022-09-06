@@ -28,3 +28,8 @@ export const Button = styled.button`
     padding: 8px 20px;
     cursor: pointer;
 `
+
+export const Saldo = styled.span`
+    font-weight: 700;
+    font-size: 32px;
+`

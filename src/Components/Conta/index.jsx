@@ -4,7 +4,7 @@ import styled from "styled-components";
 import privado from "../../assets/images/privado.svg";
 import olho_icone from "../../assets/images/olho.svg";
 import dinheiro from "../../assets/images/dinheiro.svg";
-import { Icon, Box, Button } from "../UI";
+import { Icon, Box, Button, Saldo } from "../UI";
 
 const IconMargin = styled(Icon)`
   margin-top: 2px;
@@ -27,7 +27,7 @@ const Conta = () => {
         </span>
         {toggleState ? (
           <div className="saldo">
-            <span className="detalhe">R$</span> 0,00{" "}
+            <Saldo>R$</Saldo> 0,00{" "}
           </div>
         ) : null}
       </div>
