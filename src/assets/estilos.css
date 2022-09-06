@@ -84,6 +84,7 @@ and <GlobalStyle /> on App.js
   width: 25px;
 } */
 
+/* replaced by const Button = styled.button` on index.jsx from UI
 .btn {
   margin: 15px auto 0px auto;
   display: block;
@@ -95,7 +96,7 @@ and <GlobalStyle /> on App.js
   font-size: 14px;
   padding: 8px 20px;
   cursor: pointer;
-}
+} */
 
 /* replaced by const Box = styled.div` on index.jsx from UI 
   .box {
