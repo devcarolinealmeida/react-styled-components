@@ -19,15 +19,15 @@ const Conta = () => {
 
   return (
     <Box>
-      <h2>Conta</h2>
+      <h2>Your Account</h2>
       <div style={{ fontSize: "26px", padding: "20px 0" }}>
-        Saldo disponível{" "}
+        Account balance{" "}
         <span>
           <Icon src={dinheiro} alt="Ícone Saldo" />
         </span>
         {toggleState ? (
           <Saldo>
-            <Detail>R$</Detail> 0,00{" "}
+            <Detail>$</Detail> 0,00{" "}
           </Saldo>
         ) : null}
       </div>
