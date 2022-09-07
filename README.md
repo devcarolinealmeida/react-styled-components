@@ -81,3 +81,38 @@ const IconMargin = styled(Icon)`
   margin-top: 2px;
 `
 ```
+
+#
+
+4. You can create a Global Style to define a reset css:
+```
+import { createGlobalStyle } from "styled-components";
+export const GlobalStyle = createGlobalStyle`
+* {
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: grey;
+  }
+`
+```
+- And render it on the App.js:
+```
+import { GlobalStyle } from "./Components/GlobalStyle";
+
+function App() {
+  return (
+    <>
+      <GlobalStyle />
+      <Header />
+      <Container />
+    </>
+  );
+}
+```
+
+#
+
+Final note: It is important to define your styled components outside of the render method, otherwise it will be recreated on every single render pass
