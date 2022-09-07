@@ -10,8 +10,6 @@
 <img width="600" alt="Schermata 2022-09-07 alle 16 48 33" src="https://user-images.githubusercontent.com/104517812/188908663-7033ff2b-916d-4dad-9c19-c61a331c58ef.png">  |  <img width="200" alt="Schermata 2022-09-07 alle 16 48 33" src="https://user-images.githubusercontent.com/104517812/188909005-b0daaeef-7c40-4076-81e4-cc0f24605a94.png">
 
 
-
-
 ## What I've learned:
 1. Instead of using classes and a css file to define the styles, you create a regular React component, which has your styles attached to it.
 - To create a div:
@@ -124,3 +122,6 @@ function App() {
 #
 
 Final note: It is important to define your styled components outside of the render method, otherwise it will be recreated on every single render pass
+
+# Link
+-> [Deploy](https://dev-caroline-react-styled-components.netlify.app/)
