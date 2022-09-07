@@ -10,7 +10,6 @@ function App() {
       <GlobalStyle />
       <Cabecalho />
       <Container />
-      <Container />
     </>
   );
 }
