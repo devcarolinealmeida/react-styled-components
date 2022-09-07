@@ -2,7 +2,7 @@
 
 ### A project to study react-styled-components on React [(based on an Alura course)](https://cursos.alura.com.br/course/react-styled-components)
 
-> Styled-components lets you write actual CSS in your JavaScript. This means you can use all the features of CSS, including media queries, all pseudo-selectors, etc.
+> Styled-components lets you write actual CSS in your JavaScript.
 
 ## What I've learned:
 1. Instead of using classes and a css file to define the styles, you create a regular React component, which has your styles attached to it.
@@ -55,5 +55,14 @@ const BtnHeader = styled.a`
 `
 ```
 
+```
+  <BtnHeader href="#">
+    Help
+  </BtnHeader>
+  <BtnHeader primary href="#">
+    Exit
+  </BtnHeader>
+```
+![Schermata 2022-09-07 alle 15 57 37](https://user-images.githubusercontent.com/104517812/188896868-3b7f66bc-6391-47d5-a633-22da2402c2dc.png)
 
 
