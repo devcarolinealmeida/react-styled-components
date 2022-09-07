@@ -2,7 +2,12 @@
 
 ### A project to study react-styled-components on React [(based on an Alura course)](https://cursos.alura.com.br/course/react-styled-components)
 
-> Styled-components lets you write actual CSS in your JavaScript.
+> Styled-components lets you write actual CSS in your JavaScript. 
+
+## My challenge:
+- The initial project used classes and a style.css file. My challenge was to refactor all elements using styled components.
+
+<img width="400" alt="Schermata 2022-08-29 alle 14 57 22" src="https://user-images.githubusercontent.com/104517812/188903891-fa5314e0-25d1-46f9-8cb6-601b82e42f11.png">
 
 ## What I've learned:
 1. Instead of using classes and a css file to define the styles, you create a regular React component, which has your styles attached to it.
