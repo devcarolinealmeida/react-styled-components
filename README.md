@@ -65,4 +65,19 @@ const BtnHeader = styled.a`
 ```
 ![Schermata 2022-09-07 alle 15 57 37](https://user-images.githubusercontent.com/104517812/188896868-3b7f66bc-6391-47d5-a633-22da2402c2dc.png)
 
+#
 
+3. If you want to use a component, but change it for a single case, you can make a new component that inherits the styling of another, just wrap it in the styled() constructor. 
+
+```
+export const Icon = styled.img`
+    height: 25px;
+    width: 25px;
+`
+```
+A new component based on Icon, but with margin-top:
+```
+const IconMargin = styled(Icon)`
+  margin-top: 2px;
+`
+```
